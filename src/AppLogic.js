@@ -48,7 +48,7 @@ function AppLogic({ station }) {
       {weatherData && (
         <>
           <div className="row">
-            <p>TEMPERATURE: {weatherData.temperature} °C</p>
+            <p>TEMPERATURE: {weatherData.temperature.toFixed(2)} °C</p>
           </div>
           <div className="row">
             <p>ATMOSPHERIC PRESSURE: {weatherData.pressure} Pa</p>
@@ -60,7 +60,7 @@ function AppLogic({ station }) {
             <p>RAIN INTENSITY: {weatherData.rainfall_intensity}%</p>
           </div>
           <div className="row">
-            <p>WIND SPEED: {weatherData.wind_speed} km/h</p>
+            <p>WIND SPEED: {weatherData.wind_speed.toFixed(2)} km/h</p>
           </div>
           <div className="row">
             <p>LOCATION: {weatherData.location}</p>
