@@ -4,7 +4,7 @@ This project is just one of the two main components that I made for my bachelor 
 
 ## App Description
 
-This app is supposed to retrieve data from a realtime database made in Firebase. The data represents measurements related to temperature, atmospheric pressure, rainfall intensity and wind speed, alongside these measurements I have included a timestamp for when they have been made and also a fictional Location of the weather station that sends this infos to the database.
+This app is supposed to retrieve data from a realtime database made in Firebase. The data represents measurements related to temperature, atmospheric pressure, rainfall intensity and wind speed, alongside these measurements I have included a timestamp for when they have been made and also a fictional Location of the weather station that sends this info to the database.
 
 ## App Structure
 
